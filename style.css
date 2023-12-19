@@ -1,0 +1,221 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+
+.main_box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.text-with-lines {
+    position: relative;
+    margin: 20px;
+  }
+  .line {
+    position: absolute;
+    top: 50%;
+    width: 94px;
+    height: 0.9px;
+    background-color: #C8C8C8;
+    transform: translateY(-50%);
+  }
+  .top_text{
+    display: inline-block;
+    padding: 0 10px;
+    color: #007F61;
+}
+  .box_section{
+    display: flex;
+    flex-direction: column;
+  }
+  .Box{
+    display: flex;
+    flex-direction: column;
+    border: 0.9px solid #C8C8C8;
+    margin-top: 5px;
+    border-radius: 3.62px;
+  }
+  .top_Of_Box{
+    width: 340px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .rounded_selection{
+    margin-left: 20px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 0.9px solid #DADADA;
+  }
+  .box1_text{
+    margin-left: 15px;
+  }
+  .pair_text, .dkk_text, .offer_text{
+    font-size: 14.46px;
+    line-height: 14.46px;
+    font-weight: 400;
+    color: #000000;
+  }
+ 
+  .offer_text{
+    margin-left: 125px;
+  }
+  .bottom_of_box{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .rounded_selection_2{
+    margin-left: 20px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 0.9px solid #007F61;
+  }
+  .inner_circle{
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    border-radius: 50%;
+    background-color:#007F61 ;
+  }
+  .sr_column{
+    margin-left: 28px;
+    margin-top: 30px;
+
+  }
+  .size_column{
+    margin-left: 10px;
+    margin-right: 35px;
+    font-weight: 400;
+    font-size: 9.94px;
+    line-height: 12px;
+    color: #000000;
+  }
+
+  .color_column{
+    font-weight: 400;
+    font-size: 9.94px;
+    line-height: 12px;
+    color: #000000;
+  }
+  #offerText{
+    margin-left: 20px;
+  }
+  .dkk105{
+    font-size: 9.45px;
+    color: #9F9F9F;
+    line-height: 12.03px;
+    margin-left: 40px;
+    margin-top: 15px;
+    text-decoration: line-through;
+  }
+  .mostPopularText{
+    font-size: 12.65px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #007F61;
+  }
+  .dkk_text2{
+    font-size: 14.46px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #000000;
+  }
+  .total_section{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .free_shipping_text{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #007F61;
+  }
+  .total_text{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .add_cart{
+    width: 341px;
+    height: 48px;
+    background-color: #007F61;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 4px 4px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .hideBottom .bottom_of_box {
+    display: none;
+  }
+
+ 
+  .input-container {
+    position: relative;
+   
+  }
+  
+  .list-input {
+    width: 65.98px;
+    height: 25.31px;
+    font-size: 10.85px;
+    line-height: 13.13px;
+    color: #000000;
+    font-weight: 400;
+    border: 0.9px solid #D9D9D9;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+  }
+  .list-input-container {
+    position: relative;
+    display: inline-block;
+  
+  }
+
+  .list-input {
+    height: 25.31px;
+    width: 65.85px;
+    border: 0.9px solid #D9D9D9;
+    border-radius: 1.81px;
+    color: #000000;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .list-input::placeholder{
+    margin-left: 10px;
+    color: #000000;
+  }
+
+  .downward-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5.42px solid transparent;
+    border-right: 5.42px solid transparent;
+    border-top: 8px solid #000000; 
+  }
+  .one{
+         margin-bottom: 10px;
+  }
